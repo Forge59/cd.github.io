@@ -38,6 +38,5 @@ export class Bird {
     this.velocity += this.gravity;
     this.y += this.velocity;
 
-    this.draw();
+    this.draw();}
   }
-}
